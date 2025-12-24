@@ -1,11 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-   output: "export",
-  images: {
-    unoptimized: true,
-  },
+  // Docker / Server / SSR compatible config
 };
 
 export default nextConfig;
